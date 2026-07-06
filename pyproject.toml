@@ -1,0 +1,9 @@
+[project]
+name = "collatz-conjecture"
+version = "0.1.0"
+description = "A GUI-based Collatz Conjecture (3n+1) visualizer"
+requires-python = ">=3.10"
+dependencies = [
+    "PyQt5>=5.15",
+    "matplotlib>=3.5",
+]
