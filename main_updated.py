@@ -29,6 +29,7 @@ class Ui(QMainWindow):
         text = self.txt_box.text()
         self.txt_box.clear()
         self.out_text.clear()
+        Ui.num_list.clear()
 
         self.out_text.append(f"--{text}--\n")
 
